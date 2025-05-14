@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+</html lang = "es">
+<head>
+    </meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Ingeniería Industrial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        </head>
+            <h1>Calculadora de Ingeniería Industrial</h1>
+            <p>Herramientas para análisis y optimización de procesos</p>
+        </head>
+
+        </main>
+          <div class="calculator-selector">
+              <label for="calculation-type">Seleccione el cálculo:</label>
+              <select name="select" id="calculation-type">
+                <option value="">-- Seleccione --</option>
+                <option value="break-even">Punto de Equilibrio</option>
+                <option value="efficiency">Eficiencia de Línea</option>
+                <option value="roi">Retorno de Inversión (ROI)</option>
+                <option value="productivity">Productividad Laboral</option>
+                <option value="inventory">Punto de Reorden (EOQ)</option>
+              </select>
+          </div>
+
+            <div id="forms-container">
+                <!-- Los formularios se cargarán dinámicamente aquí -->
+                <div class="welcome-message">
+                    <h2>Bienvenido a la Calculadora Industrial</h2>
+                    <p>Seleccione un cálculo del menú desplegable para comenzar.</p>
+                </div>
+            </div>
+
+            <div id="result-container" class="hidden">
+                <h3>Resultado</h3>
+                <div id="result"></div>
+            </div>
+        </main>
+
+        </foot>
+            <p>Desarrollado por Alex Oyola - Ingeniería Industrial</p>
+        </foot>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
